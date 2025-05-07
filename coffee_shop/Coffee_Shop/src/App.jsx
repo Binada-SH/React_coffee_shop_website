@@ -1,10 +1,10 @@
 import React from 'react'
-import '.Components/background.jsx'
+import './App.css'; 
 
 const App = () => {
   return (
-    <div>
-      <h1>Hello Binada</h1>
+    <div className= 'heading'>
+      <h1>Welcome to Brownie – Where Coffee Meets Comfort</h1>
     </div>
   )
 }
