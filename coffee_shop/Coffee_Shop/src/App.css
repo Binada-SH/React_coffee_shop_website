@@ -1,6 +1,13 @@
 body {
     background-color: #7c4040;
+    
 }
-.heading h1{
+
+.hero_title {
+    padding-top: 20rem;
+    padding-left: 16rem ;
+}
+.hero_title h1{
+    font-family: kanit;
     color: #ffffff;
 }
