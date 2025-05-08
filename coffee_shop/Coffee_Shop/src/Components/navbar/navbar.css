@@ -4,6 +4,9 @@
 }
 
 .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     float: right;
     margin-top: 4.5rem;
     margin-right: 8rem;
