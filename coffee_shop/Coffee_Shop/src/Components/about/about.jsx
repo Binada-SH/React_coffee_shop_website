@@ -24,6 +24,9 @@ const about = () => {
                   we're here to make your time 
                   worthwhile.</p>
         </div>
+        <div className="about_img">
+          <img src="src/assets/coffee_about.png" alt="" />
+        </div>
 
       
     </div>
