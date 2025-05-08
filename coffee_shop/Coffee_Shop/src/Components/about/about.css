@@ -4,10 +4,35 @@
 }
 
 .about_title {
-    margin-top: 30rem;
+    margin-top: 3rem
 }
 
 .about_title h2 {
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'gotham';
+    color: #000000;
+}
+
+.line {
+    margin: 2rem auto;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f19355;
+    border: none;
+    width: 10%;
+    height: 3px;
+}
+
+.about_section {
+    width: 30%;
+    margin: 6rem auto;
+}
+
+.about_section p {
+    text-align: center;
+    font-size: 18px;
+    line-height: 2rem;
     font-family: 'jura';
-    color: #ffffff;
+    color: #000000;
 }

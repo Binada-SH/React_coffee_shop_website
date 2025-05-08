@@ -7,6 +7,9 @@ const about = () => {
         <div className="about_title">
             <h2>About Us</h2>
         </div>
+        <div className="about_hor_line">
+          <hr className='line'/>
+        </div>
         <div className="about_section">
             <p>Brownie began with a simple 
                 idea: to create a place where 
