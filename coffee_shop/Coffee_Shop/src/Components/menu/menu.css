@@ -201,12 +201,6 @@
     width: 90%;
 }
 
-
-
-
-
-
-
 .special_drink {
     margin-top: 13rem;
     margin-left: 10rem;
@@ -318,4 +312,141 @@
 
 .special_img img {
     width: 80%;
+}
+
+.bakery {
+    margin-top: 13rem;
+    margin-left: 10rem;   
+}
+
+.bakery h3 {
+    font-size: 2rem;
+}
+
+.bth {
+    margin-top: 4rem;
+    margin-left: 3.8rem;
+}
+.bth li{
+    font-size: 1.2rem;
+    font-family: 'jura';
+    display: inline;
+    padding: 6rem;
+}
+
+.bline1 {
+    margin-top: 0.2rem;
+    margin-left: 10rem;
+    width: 40%;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f19355;
+    border: none;
+    height: 0.3px;
+}
+
+.btd1 {
+    margin-top: 1rem;
+    margin-left: 7.5rem;
+}
+
+.btr1 li {
+    list-style: none;
+    font-size: 1rem;
+    font-family: 'jura';
+    display: inline;
+    padding: 2.28rem;
+}
+
+.bml1 {
+    margin-top: 0.8rem;
+    margin-left: 10rem;
+    width: 40%;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #c7c7c7;
+    border: none;
+    height: 0.3px;
+}
+
+.btd2 {
+    margin-top: 1rem;
+    margin-left: 7rem;
+}
+
+.btr2 li {
+    list-style: none;
+    font-size: 1rem;
+    font-family: 'jura';
+    display: inline;
+    padding: 2.9rem;
+}
+
+.bml2 {
+    margin-top: 0.8rem;
+    margin-left: 10rem;
+    width: 40%;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #c7c7c7;
+    border: none;
+    height: 0.3px;
+}
+
+.btd3 {
+    margin-top: 1rem;
+    margin-left: 6.8rem;
+}
+
+.btr3 li {
+    list-style: none;
+    font-size: 1rem;
+    font-family: 'jura';
+    display: inline;
+    padding: 3rem;
+}
+
+.bml3 {
+    margin-top: 0.8rem;
+    margin-left: 10rem;
+    width: 40%;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #c7c7c7;
+    border: none;
+    height: 0.3px;
+}
+
+.btd4 {
+    margin-top: 1rem;
+    margin-left: 6.8rem;
+}
+
+.btr4 li {
+    list-style: none;
+    font-size: 1rem;
+    font-family: 'jura';
+    display: inline;
+    padding: 3rem;
+}
+
+.bml4 {
+    margin-top: 0.8rem;
+    margin-left: 10rem;
+    width: 40%;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #c7c7c7;
+    border: none;
+    height: 0.3px;
+}
+
+.bakery_img {
+    float: right;
+    margin-right: -130rem;
+    margin-top: -18rem;
+}
+
+.bakery_img img {
+    width: 10%;
 }

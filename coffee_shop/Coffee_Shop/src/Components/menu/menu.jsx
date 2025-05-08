@@ -115,6 +115,54 @@ const menu = () => {
         <div className="special_img">
             <img src="src/assets/special_drink.png" alt="" />
         </div>
+        <div className="bakery">
+            <h3>🍰 Bakery</h3>
+        </div>
+        <div className="btbl">
+            <ul className="bth">
+                <li>Drink</li>
+                <li>Description</li>
+                <li>Price</li>
+            </ul>
+        </div>
+        <div className="btl1">
+            <hr className="bline1" />
+        </div>
+        <div className="btd1">
+            <ul className="btr1">
+                <li>Classic Brownie</li>
+                <li>Fudgy, rich, and house-made</li>
+                <li>$2.50</li>
+            </ul>
+        </div>
+            <hr className="bml1" />
+        <div className="btd2">
+            <ul className="btr2">
+                <li>Cheesecake Slice</li>
+                <li>Creamy with a crunchy base</li>
+                <li>$4.25</li>
+            </ul>
+        </div>
+            <hr className="bml2" />
+        <div className="btd3">
+            <ul className="btr3">
+                <li>Croissant</li>
+                <li>Buttery and flaky</li>
+                <li>$2.25</li>
+            </ul>
+        </div>
+            <hr className="bml4" />
+            <div className="btd4">
+            <ul className="btr4">
+                <li>Banana Bread</li>
+                <li>Fresh and moist, made daily</li>
+                <li>$3.00</li>
+            </ul>
+        </div>
+            <hr className="bml4" />               
+        <div className="bakery_img">
+            <img src="src/assets/bakery.png" alt="" />
+        </div>
 
 
       
