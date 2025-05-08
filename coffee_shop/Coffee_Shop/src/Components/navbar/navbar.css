@@ -5,4 +5,18 @@
 
 .navbar {
     float: right;
+    margin-top: 3rem;
+    margin-right: 10rem;
+}
+
+.navbar li{
+    display: inline;
+    padding: 1rem;
+}
+
+.navbar a {
+    font-family: 'jura';
+    font-size: 1.13rem;
+    color: #ffffff;
+    text-decoration: none;
 }
