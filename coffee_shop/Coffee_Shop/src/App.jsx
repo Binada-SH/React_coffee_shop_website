@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import './App.css'; 
 import Navbar from './Components/navbar/navbar';
 import Cta_btn from './Components/cta_btn/cta_btn';
