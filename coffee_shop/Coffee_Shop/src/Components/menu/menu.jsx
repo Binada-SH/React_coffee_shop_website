@@ -38,6 +38,7 @@ const menu = () => {
                         <li>$2.50</li>
                     </ul>
                 </div>
+                <hr className="ml1" />
                 <div className="td2">
                     <ul className="tr2">
                         <li>Americano</li>
@@ -45,6 +46,7 @@ const menu = () => {
                         <li>$3.00</li>
                     </ul>
                 </div>
+                <hr className="ml2" />
                 <div className="td3">
                     <ul className="tr3">
                         <li>Latte</li>
@@ -52,6 +54,7 @@ const menu = () => {
                         <li>$3.50</li>
                     </ul>
                 </div>
+                <hr className="ml3" />               
                 <div className="td4">
                     <ul className="tr4">
                         <li>Cappuccino</li>
@@ -59,6 +62,7 @@ const menu = () => {
                         <li>$3.75</li>
                     </ul>
                 </div>
+                <hr className="ml4" />
                 <div className="td5">
                     <ul className="tr5">
                         <li>Mocha</li>
@@ -66,6 +70,8 @@ const menu = () => {
                         <li>$4.00</li>
                     </ul>
                 </div>
+                <hr className="ml5" />
+
                 
         </div>
 
