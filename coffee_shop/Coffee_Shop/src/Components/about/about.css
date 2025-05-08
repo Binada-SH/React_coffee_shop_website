@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.about_title {
+    margin-top: 30rem;
+}
+
+.about_title h2 {
+    font-family: 'jura';
+    color: #ffffff;
+}

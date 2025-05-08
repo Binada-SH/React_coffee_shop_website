@@ -3,7 +3,25 @@ import './about.css';
 
 const about = () => {
   return (
-    <div>
+    <div className= 'about_container'>
+        <div className="about_title">
+            <h2>About Us</h2>
+        </div>
+        <div className="about_section">
+            <p>Brownie began with a simple 
+                idea: to create a place where 
+                great coffee and good vibes 
+                come together. We’re passionate
+                 about crafting the perfect cup, 
+                 serving up fresh pastries, and 
+                 building a welcoming space for
+                  everyone. Whether you're here 
+                  for your morning boost, a study 
+                  session, or a late-night catch-up, 
+                  we're here to make your time 
+                  worthwhile.</p>
+        </div>
+
       
     </div>
   )
