@@ -74,9 +74,48 @@ const menu = () => {
                 <div className="coffee_img">
                     <img src="src/assets/coffee_food.png" alt="" />
                 </div>
-
-                
         </div>
+        <div className="special_drink">
+            <h3>🧋 Special Drinks</h3>
+        </div>
+        <div className="sptbl">
+            <ul className="spth">
+                <li>Drink</li>
+                <li>Description</li>
+                <li>Price</li>
+            </ul>
+        </div>
+        <div className="sptl1">
+            <hr className="spline1" />
+        </div>
+        <div className="sptd1">
+            <ul className="sptr1">
+                <li>Brownie Blend</li>
+                <li>Our signature chocolate-infused latte</li>
+                <li>$4.50</li>
+            </ul>
+        </div>
+            <hr className="spml1" />
+        <div className="sptd2">
+            <ul className="sptr2">
+                <li>Vanilla Cold Brew</li>
+                <li>Sweet, chilled, and energizing</li>
+                <li>$4.25</li>
+            </ul>
+        </div>
+            <hr className="spml2" />
+        <div className="sptd3">
+            <ul className="sptr3">
+                <li>Cinnamon Chai</li>
+                <li>Warm spices in a creamy base</li>
+                <li>$4.00</li>
+            </ul>
+        </div>
+            <hr className="spml3" />               
+        <div className="special_img">
+            <img src="src/assets/special_drink.png" alt="" />
+        </div>
+
 
       
     </div>

@@ -201,3 +201,121 @@
     width: 90%;
 }
 
+
+
+
+
+
+
+.special_drink {
+    margin-top: 13rem;
+    margin-left: 10rem;
+
+}
+.special_drink h3 {
+    font-size: 2rem;
+}
+
+.spth {
+    margin-top: 4rem;
+    margin-left: 3.8rem;
+}
+.spth li{
+    font-size: 1.2rem;
+    font-family: 'jura';
+    display: inline;
+    padding: 6rem;
+}
+
+.spline1 {
+    margin-top: 0.2rem;
+    margin-left: 10rem;
+    width: 40%;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f19355;
+    border: none;
+    height: 0.3px;
+}
+
+.sptd1 {
+    margin-top: 1rem;
+    margin-left: 7.5rem;
+}
+
+.sptr1 li {
+    list-style: none;
+    font-size: 1rem;
+    font-family: 'jura';
+    display: inline;
+    padding: 2.28rem;
+}
+
+.spml1 {
+    margin-top: 0.8rem;
+    margin-left: 10rem;
+    width: 40%;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #c7c7c7;
+    border: none;
+    height: 0.3px;
+}
+
+.sptd2 {
+    margin-top: 1rem;
+    margin-left: 7rem;
+}
+
+.sptr2 li {
+    list-style: none;
+    font-size: 1rem;
+    font-family: 'jura';
+    display: inline;
+    padding: 2.9rem;
+}
+
+.spml2 {
+    margin-top: 0.8rem;
+    margin-left: 10rem;
+    width: 40%;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #c7c7c7;
+    border: none;
+    height: 0.3px;
+}
+
+.sptd3 {
+    margin-top: 1rem;
+    margin-left: 6.8rem;
+}
+
+.sptr3 li {
+    list-style: none;
+    font-size: 1rem;
+    font-family: 'jura';
+    display: inline;
+    padding: 3rem;
+}
+
+.spml3 {
+    margin-top: 0.8rem;
+    margin-left: 10rem;
+    width: 40%;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #c7c7c7;
+    border: none;
+    height: 0.3px;
+}
+
+.special_img {
+    float: right;
+    margin-right: 0rem;
+    margin-top: -18rem;
+}
+
+.special_img img {
+    width: 80%;
+}
