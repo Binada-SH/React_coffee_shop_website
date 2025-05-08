@@ -24,6 +24,29 @@ const about = () => {
                   we're here to make your time 
                   worthwhile.</p>
         </div>
+        <div className="mission">
+          <h3 className='mission_title'>
+            Our Mission
+          </h3>
+          <div className='mission_des'>
+            <p>To serve exceptional 
+              coffee and heartfelt hospitality that brings 
+              people together.
+            </p>
+          </div>
+          <div className="value">
+            <h3 className="value_title">
+              Why Choose Us
+            </h3>
+            <div className="reasons">
+              <ul>
+                <li>Quality in every cup</li>
+                <li>Sustainability & community</li>
+                <li>Warm, personal service</li>
+              </ul>
+            </div>
+          </div>
+        </div>
         <div className="about_img">
           <img src="src/assets/coffee_about.png" alt="" />
         </div>
