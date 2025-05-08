@@ -97,7 +97,7 @@
 
 .td2 {
     margin-top: 1rem;
-    margin-left: 6.3rem;
+    margin-left: 5.5rem;
 }
 
 .tr2 li {
@@ -105,7 +105,7 @@
     font-size: 1rem;
     font-family: 'jura';
     display: inline;
-    padding: 3.6rem;
+    padding: 4.3rem;
 }
 
 .ml2 {
@@ -129,7 +129,7 @@
     font-size: 1rem;
     font-family: 'jura';
     display: inline;
-    padding: 3.6rem;
+    padding: 3.5rem;
 }
 
 .ml3 {
@@ -145,7 +145,7 @@
 
 .td4 {
     margin-top: 1rem;
-    margin-left: 6.3rem;
+    margin-left: 5.3rem;
 }
 
 .tr4 li {
@@ -153,7 +153,7 @@
     font-size: 1rem;
     font-family: 'jura';
     display: inline;
-    padding: 3.6rem;
+    padding: 4.5rem;
 }
 
 .ml4 {
@@ -169,7 +169,7 @@
 
 .td5 {
     margin-top: 1rem;
-    margin-left: 6.3rem;
+    margin-left: 5.3rem;
 }
 
 .tr5 li {
@@ -177,7 +177,7 @@
     font-size: 1rem;
     font-family: 'jura';
     display: inline;
-    padding: 3.6rem;
+    padding: 4.7rem;
 }
 
 .ml5 {
@@ -189,5 +189,15 @@
     background-color: #c7c7c7;
     border: none;
     height: 0.3px;
+}
+
+.coffee_img {
+    float: right;
+    margin-right: 3rem;
+    margin-top: -30rem;
+}
+
+.coffee_img img {
+    width: 90%;
 }
 

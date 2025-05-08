@@ -71,6 +71,9 @@ const menu = () => {
                     </ul>
                 </div>
                 <hr className="ml5" />
+                <div className="coffee_img">
+                    <img src="src/assets/coffee_food.png" alt="" />
+                </div>
 
                 
         </div>
