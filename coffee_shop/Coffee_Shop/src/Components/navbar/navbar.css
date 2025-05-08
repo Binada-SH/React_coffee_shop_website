@@ -5,13 +5,13 @@
 
 .navbar {
     float: right;
-    margin-top: 3rem;
-    margin-right: 9rem;
+    margin-top: 4.5rem;
+    margin-right: 8rem;
 }
 
 .navbar li{
     display: inline;
-    padding: 1rem;
+    padding: 1.3rem;
 }
 
 .navbar a {
