@@ -3,9 +3,15 @@ import './App.css';
 
 const App = () => {
   return (
-    <div className= 'hero_title'>
-    <h1>Welcome to <br></br>Brownie</h1>
+    <div className= 'container'>
+      <div className= 'hero_title'>
+        <h1>Welcome to </h1>
+      </div>
+      <div className="shop_name">
+        <h1>Brownie</h1>
+        </div>
     </div>
+    
   )
 }
 

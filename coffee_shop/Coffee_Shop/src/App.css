@@ -1,13 +1,38 @@
 body {
-    background-color: #7c4040;
-    
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(assets/coffee.jpg);
+    background-size: cover;
+    overflow-x: hidden;
 }
 
+.container {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.image img {
+
+}
 .hero_title {
-    padding-top: 20rem;
-    padding-left: 16rem ;
+    padding-left: 16rem;
+    padding-top: 14rem;
+    align-items: center;
+    justify-content: center;  
 }
 .hero_title h1{
-    font-family: kanit;
+    font-size: 3.5rem;
+    letter-spacing: 0.2rem;
+    font-family: 'kanit';
+    color: #ffffff;
+}
+
+.shop_name {
+    margin-top: -6rem;
+    padding-left: 16rem ;
+}
+
+.shop_name h1{
+    font-size: 6.5rem;
+    letter-spacing: 0.2rem;
+    font-family: 'butter chicken';
     color: #ffffff;
 }
