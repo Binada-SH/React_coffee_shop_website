@@ -2,3 +2,85 @@
     margin: 0;
     padding: 0;
 }
+
+.menu_title {
+    margin-top: 3rem;
+}
+
+.menu_title h2 {
+    font-size: 3rem;
+    text-align: center;
+    line-height: 2rem;
+    font-family: 'gotham';
+    color: #000000;
+}
+
+.line {
+    margin: 2rem auto;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f19355;
+    border: none;
+    width: 10%;
+    height: 3px;
+}
+
+.menu_para {
+    width: 50%;
+    margin: 3rem auto;
+}
+
+.menu_para p {
+    text-align: center;
+    font-size: 18px;
+    line-height: 2rem;
+    font-family: 'jura';
+    color: #000000;
+}
+
+.menu_list {
+    margin-top: 6rem;
+}
+
+.coffee {
+    margin-left: 10rem;
+}
+.coffee h3 {
+    font-size: 2rem;
+}
+
+.th {
+    margin-top: 4rem;
+    margin-left: 3.8rem;
+}
+.th li{
+    font-size: 1.2rem;
+    font-family: 'jura';
+    display: inline;
+    padding: 6rem;
+}
+
+.line1 {
+    margin-top: 0.2rem;
+    margin-left: 10rem;
+    width: 40%;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f19355;
+    border: none;
+    height: 0.3px;
+}
+
+.td1 {
+    margin-top: 1rem;
+    margin-left: 6.3rem;
+}
+
+.tr1 li {
+    list-style: none;
+    font-size: 1rem;
+    font-family: 'jura';
+    display: inline;
+    padding: 3.6rem;
+}
+

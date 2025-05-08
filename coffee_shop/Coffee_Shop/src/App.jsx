@@ -4,6 +4,7 @@ import Navbar from './Components/navbar/navbar';
 import Cta_btn from './Components/cta_btn/cta_btn';
 import About from './Components/about/about';
 import './assets/coffee.jpg';
+import Menu from './Components/menu/menu';
 
 const App = () => {
   return (
@@ -20,6 +21,9 @@ const App = () => {
 
     <section className= "about">
         <About/>
+      </section>
+      <section className="menu">
+        <Menu/>
       </section>
     </div>
     
