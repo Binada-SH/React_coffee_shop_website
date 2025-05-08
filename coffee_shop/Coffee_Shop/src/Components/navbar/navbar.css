@@ -40,10 +40,10 @@
 .navbar a {
     font-family: 'jura';
     font-size: 1.13rem;
-    color: #ffffff;
+    color: #f19355;
     text-decoration: none;
 }
 
 .navbar a:hover {
-    color: #f19355;
+    color: #ffffff;
 }
