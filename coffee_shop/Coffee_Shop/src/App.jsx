@@ -5,11 +5,8 @@ const App = () => {
   return (
     <div className= 'container'>
       <div className= 'hero_title'>
-        <h1>Welcome to </h1>
+        <h1>Discover the <br/>Taste of Coffee <br/>at Brownie</h1>
       </div>
-      <div className="shop_name">
-        <h1>Brownie</h1>
-        </div>
     </div>
     
   )

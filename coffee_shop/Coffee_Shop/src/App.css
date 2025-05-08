@@ -9,30 +9,14 @@ body {
     justify-content: space-between;
 }
 
-.image img {
-
-}
 .hero_title {
     padding-left: 16rem;
-    padding-top: 14rem;
+    padding-top: 16.3rem;
     align-items: center;
     justify-content: center;  
 }
 .hero_title h1{
     font-size: 3.5rem;
-    letter-spacing: 0.2rem;
-    font-family: 'kanit';
-    color: #ffffff;
-}
-
-.shop_name {
-    margin-top: -6rem;
-    padding-left: 16rem ;
-}
-
-.shop_name h1{
-    font-size: 6.5rem;
-    letter-spacing: 0.2rem;
-    font-family: 'butter chicken';
+    font-family: 'gotham';
     color: #ffffff;
 }
