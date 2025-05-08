@@ -1,13 +1,14 @@
 import React from 'react'
 import './cta_btn.css';
 
-const background = () => {
+const cta_btn = () => {
   return (
-    <div>
+    <div className= 'cta_btn'>
+      <a href="#visit">Visit Us</a>
         
       
     </div>
   )
 }
 
-export default background
+export default cta_btn

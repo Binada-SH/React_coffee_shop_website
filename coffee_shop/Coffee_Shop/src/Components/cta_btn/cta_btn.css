@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.cta_btn {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: auto;
+    border: 0.3px solid #f19355;
+    padding: 8px 10px;
+    margin-top: 1.2rem;
+    margin-left: 16.3rem;
+}
+.cta_btn a {
+    text-align: center;
+    font-size: 0.9rem;
+    font-family: 'kanit';
+    letter-spacing: 0.1rem;
+    color: #ffffff;
+    text-decoration: none;
+
+}
