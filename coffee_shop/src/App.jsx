@@ -5,6 +5,7 @@ import Cta_btn from './Components/cta_btn/cta_btn';
 import About from './Components/about/about';
 import './assets/coffee.jpg';
 import Menu from './Components/menu/menu';
+import Gallery from './Components/gallery/gallery';
 
 const App = () => {
   return (
@@ -24,6 +25,9 @@ const App = () => {
       </section>
       <section className="menu">
         <Menu/>
+      </section>
+      <section className="gallery">
+        <Gallery/>
       </section>
     </div>
     
