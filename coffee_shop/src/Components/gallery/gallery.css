@@ -4,7 +4,7 @@
 }
 
 .gallery_title {
-    margin-top: 13rem
+    margin-top: 8rem
 }
 
 .gallery_title h2 {
@@ -49,4 +49,8 @@
     height: 250px;
     border-radius: 8px;
     object-fit: cover;
+}
+
+.grid_item:hover {
+    scale: 1.2rem;
 }
