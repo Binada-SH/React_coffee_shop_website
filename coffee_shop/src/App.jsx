@@ -6,6 +6,7 @@ import About from './Components/about/about';
 import './assets/coffee.jpg';
 import Menu from './Components/menu/menu';
 import Gallery from './Components/gallery/gallery';
+import Visitus from './Components/visitus/visitus';
 
 const App = () => {
   return (
@@ -28,6 +29,9 @@ const App = () => {
       </section>
       <section className="gallery">
         <Gallery/>
+      </section>
+      <section className="visitus">
+        <Visitus/>
       </section>
     </div>
     
