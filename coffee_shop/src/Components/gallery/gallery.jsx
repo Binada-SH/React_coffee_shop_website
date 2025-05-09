@@ -1,5 +1,8 @@
-import React from 'react'
-import './gallery.css'
+import React from 'react';
+import './gallery.css';
+impo
+
+const images = []
 
 const gallery = () => {
   return (
