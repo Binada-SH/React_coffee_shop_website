@@ -48,7 +48,7 @@ const about = () => {
           </div>
         </div>
         <div className="about_img">
-          <img src="src/assets/coffee_about.png" alt="" />
+          <img src="React_coffee_shop_website/assets/coffee_about.png" alt="" />
         </div>
 
       
