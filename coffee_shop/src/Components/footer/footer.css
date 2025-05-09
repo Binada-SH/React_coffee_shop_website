@@ -3,3 +3,66 @@
     padding: 0;
 }
 
+.footer_container {
+    height: auto;
+    width: auto;
+    background-color: #f19355;
+}
+
+.footer_logo {
+    cursor: pointer;
+    display: flex;
+    margin-top: auto;
+    margin-left: 3rem;
+}
+
+
+.footer_logo h2 {
+    align-items: center;
+    margin-top: 3.8rem;
+    color: #000000;
+    font-family: 'butter chicken';
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+}
+
+.footer_slogan {
+    margin-top: -0.8rem;
+    margin-left: 3rem;
+}
+
+.footer_slogan p {
+    font-weight: 400;
+    font-family: 'gotham';
+    font-size: 0.6rem;
+    color: #000000;
+}
+
+.contact {
+    margin-top: -6rem;
+    text-align: center;
+    line-height: 2rem;
+}
+
+.contact_t{
+    font-size: 0.8rem;
+    font-family: 'jura';
+}
+
+.contact_info li {
+    list-style: none;
+    font-family: 'jura';
+    font-size: 0.7rem;
+}
+
+.copyrights {
+    margin-top: 1rem;
+    padding-bottom: 0.5rem;
+}
+
+.copyrights p {
+    text-align: center;
+    color: #000000;
+    font-family: 'gotham';
+    font-size: 0.6rem;
+}

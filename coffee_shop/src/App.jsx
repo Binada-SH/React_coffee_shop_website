@@ -7,6 +7,7 @@ import './assets/coffee.jpg';
 import Menu from './Components/menu/menu';
 import Gallery from './Components/gallery/gallery';
 import Visitus from './Components/visitus/visitus';
+import Footer from './Components/footer/footer';
 
 
 
@@ -34,6 +35,9 @@ const App = () => {
       </section>
       <section className="visitus" id='visitus'>
         <Visitus/>
+      </section>
+      <section className="footer" id='footer'>
+        <Footer/>
       </section>
     </div>
     
