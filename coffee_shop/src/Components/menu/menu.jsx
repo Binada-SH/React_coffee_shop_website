@@ -1,5 +1,6 @@
 import React from 'react';
 import './menu.css';
+import Coffee_about from '../../assets/coffee_about.png';
 
 const menu = () => {
   return (
@@ -72,7 +73,7 @@ const menu = () => {
                 </div>
                 <hr className="ml5" />
                 <div className="coffee_img">
-                    <img src="src/assets/coffee_food.png" alt="" />
+                    <img src={Coffee_about} alt="" />
                 </div>
         </div>
         <div className="special_drink">
