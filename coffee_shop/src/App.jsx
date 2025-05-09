@@ -8,10 +8,12 @@ import Menu from './Components/menu/menu';
 import Gallery from './Components/gallery/gallery';
 import Visitus from './Components/visitus/visitus';
 
+
+
 const App = () => {
   return (
     <div className= 'app'>
-      <section className= 'hero'>
+      <section className= 'hero' id='home'>
       <Navbar/>
         <div className= 'hero_title'>
         <h1>Discover the <br/>Taste of Coffee <br/>at Brownie</h1>
@@ -21,16 +23,16 @@ const App = () => {
       </div>
     </section>
 
-    <section className= "about">
+    <section className= "about" id='about'>
         <About/>
       </section>
-      <section className="menu">
+      <section className="menu" id='menu'>
         <Menu/>
       </section>
-      <section className="gallery">
+      <section className="gallery" id='gallery'>
         <Gallery/>
       </section>
-      <section className="visitus">
+      <section className="visitus" id='visitus'>
         <Visitus/>
       </section>
     </div>
