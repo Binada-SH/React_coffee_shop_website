@@ -1,3 +1,7 @@
+@font-face {
+  font-family: 'Now';
+  src: url('/fonts/now.thin.otf') format('opentype');
+}
 body {
   overflow-x: hidden;
   margin: 0;
