@@ -456,6 +456,10 @@
         width: 75%;
     }
 
+    .coffee {
+        padding-left: 8.7rem;
+    }
+
     .th {
         margin-left: auto;
     }
@@ -467,5 +471,22 @@
     .line1 {
         margin-left: 2.4rem;
         width: 84%;
+    }
+
+    .td1 {
+        width: 100%;
+        margin-left: 1.8rem;
+        margin-top: 1.5rem;
+    }
+
+    .tr1 li {
+        font-size: 0.9rem;
+        display: inline;
+        padding: 0.6rem;
+    }
+
+
+    .coffee_img {
+        display: none;
     }
 }
