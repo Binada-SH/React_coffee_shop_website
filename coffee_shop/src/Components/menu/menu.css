@@ -43,7 +43,7 @@
 }
 
 .coffee {
-    margin-left: 10rem;
+    padding-left: 10rem;
 }
 .coffee h3 {
     font-size: 2rem;
@@ -449,4 +449,23 @@
 
 .bakery_img img {
     width: 10%;
+}
+
+@media screen and (max-width: 414px) {
+    .menu_para {
+        width: 75%;
+    }
+
+    .th {
+        margin-left: auto;
+    }
+
+    .th li {
+        padding: 2.4rem;
+    }
+
+    .line1 {
+        margin-left: 2.4rem;
+        width: 84%;
+    }
 }
