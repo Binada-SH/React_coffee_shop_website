@@ -25,3 +25,13 @@
     font-family: 'gotham';
     color: #ffffff;
 }
+
+@media screen and (max-width: 414px) {
+    .hero_title {
+        display: flex;
+        padding-left: 2.5rem;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+}
