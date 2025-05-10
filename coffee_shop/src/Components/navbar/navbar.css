@@ -21,7 +21,6 @@
     justify-content: space-around;
     cursor: pointer;
     display: flex;
-    margin-top: auto;
     margin-left: 3rem;
 }
 
@@ -42,4 +41,21 @@
     font-size: 1.13rem;
     color: #f19355;
     text-decoration: none;
+}
+
+@media screen and (max-width: 414px) {
+    .navbar {
+        display: flex;
+        position: fixed;
+        margin-top: auto;
+        margin-left: auto;
+        justify-content: space-between;
+    }
+
+    .logo  h2{
+        font-size: 1.6rem;
+    }
+    
+
+    
 }
