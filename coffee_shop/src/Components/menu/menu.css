@@ -485,6 +485,80 @@
         padding: 0.6rem;
     }
 
+    .ml1 {
+        margin-left: 2.4rem;
+        width: 85%;
+    }
+
+     .td2 {
+        width: 100%;
+        margin-left: 1.2rem;
+        margin-top: 1.5rem;
+    }
+
+    .tr2 li {
+        font-size: 0.9rem;
+        display: inline;
+        padding: 1.2rem;
+    }
+
+    .ml2 {
+        margin-left: 2.4rem;
+        width: 85%;
+    }
+
+     .td3 {
+        width: 100%;
+        margin-left: 1.8rem;
+        margin-top: 1.5rem;
+    }
+
+    .tr3 li {
+        font-size: 0.9rem;
+        display: inline;
+        padding: 0.5rem;
+    }
+
+    .ml3 {
+        margin-left: 2.4rem;
+        width: 85%;
+    }
+
+     .td4 {
+        width: 100%;
+        margin-left: 1rem;
+        margin-top: 1.5rem;
+    }
+
+    .tr4 li {
+        font-size: 0.9rem;
+        display: inline;
+        padding: 1.4rem;
+    }
+
+    .ml4 {
+        margin-left: 2.4rem;
+        width: 85%;
+    }
+
+    .td5 {
+        width: 100%;
+        margin-left: 0.8rem;
+        margin-top: 1.5rem;
+    }
+
+    .tr5 li {
+        font-size: 0.9rem;
+        display: inline;
+        padding: 1.6rem;
+    }
+
+    .ml5 {
+        margin-left: 2.4rem;
+        width: 85%;
+    }
+
+
 
     .coffee_img {
         display: none;
