@@ -84,3 +84,24 @@
 .about_img {
     margin-top: auto;
 }
+
+@media screen and (max-width: 414px) {
+    .about_section {
+        width: 75%;
+    }
+
+    .mission_des {
+        width: 75%;
+    }
+    
+    .reasons li {
+        text-align: center;
+        align-items: center;
+        margin: 1.5rem auto;
+        width: auto;
+    }
+
+    .about_img img{
+        margin-top: auto;
+    }
+}
