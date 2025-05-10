@@ -203,7 +203,7 @@
 
 .special_drink {
     margin-top: 13rem;
-    margin-left: 10rem;
+    padding-left: 10rem;
 
 }
 .special_drink h3 {
@@ -316,7 +316,7 @@
 
 .bakery {
     margin-top: 13rem;
-    margin-left: 10rem;   
+    padding-left: 10rem;   
 }
 
 .bakery h3 {
@@ -557,10 +557,16 @@
         margin-left: 2.4rem;
         width: 85%;
     }
+    
+    .coffee_img img{
+        margin-left: auto;
+        margin-top: 31rem;
+        display: flex;
+    }
 
-
-
-    .coffee_img {
-        display: none;
+    .special_drink h3{
+        display: flex;
+        margin-left: -5rem;
+        margin-top: 35rem;
     }
 }
