@@ -1,6 +1,8 @@
 @font-face {
   font-family: 'Now';
   src: url('/fonts/now.thin.otf') format('opentype');
+  font-family: 'Jura';
+  src: url('/fonts/Jura-VariableFont_wght.ttf') format('opentype');
 }
 body {
   overflow-x: hidden;
