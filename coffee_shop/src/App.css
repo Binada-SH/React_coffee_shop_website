@@ -28,7 +28,7 @@
     color: #ffffff;
 }
 
-@media screen and (max-width: 2560px) {
+@media screen and (min-width: 2560px) {
     .hero_title {
         padding-left: 40rem;
         padding-top: 27rem;
