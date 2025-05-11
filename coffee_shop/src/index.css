@@ -3,6 +3,8 @@
   src: url('/fonts/now.thin.otf') format('opentype');
   font-family: 'Jura';
   src: url('/fonts/Jura-VariableFont_wght.ttf') format('opentype');
+  font-family: 'Butter Chicken';
+  src: url('/fonts/JButter Chicken.ttf') format('opentype');
 }
 body {
   overflow-x: hidden;
