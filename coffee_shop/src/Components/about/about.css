@@ -81,7 +81,9 @@
     color: #000000;
 }
 
-.about_img {
+.about_img img{
+    max-width: 2560px;
+    width: 100%;
     margin-top: auto;
 }
 
