@@ -43,7 +43,7 @@
 }
 
 .coffee,.special_drink,.bakery {
-    padding-left: 10rem;
+   margin: 0;
 }
 .coffee,.special_drink,.bakery, h3 {
     font-family: 'now';
@@ -53,7 +53,6 @@
 .coffee_menu,.special_drinks_menu,.bakery_menu {
     display: flex;
     padding-top: 3rem;
-    padding-left: 9rem;
     font-family: 'jura';
 }
 .coffee_table,.special_drink_table,.bakery_table {
@@ -100,7 +99,6 @@
 
 .special_drinks_menu {
     display: flex;
-    padding-left: 9rem;
     font-family: 'jura';
 }
 .special_drink_table {
@@ -168,6 +166,10 @@
         width: 580px;
     }
 
+    .coffee,.special_drink,.bakery {
+        padding-left: 10rem;
+    }
+
     .ml1,.ml2,.ml3,.ml4,.ml5,.spline1,.spml1,
     .spml2,.spml3,.bline1,.bml1,.bml2,.bml3,.bml4 {
         width: 580px;
@@ -177,14 +179,32 @@
         padding-right: 16rem;
     }  
 }
+
+@media screen and (min-width: 1280px) {
+    .coffee,.special_drink,.bakery {
+        padding-left: 10rem;
+    }   
+    .coffee_menu,.special_drinks_menu,.bakery_menu {
+        padding-left: 9rem;
+    }
+}
 @media screen and (max-width: 414px) {
     .menu_para {
         width: 75%;
     }
 
-    .coffee {
-        padding-left: 8.7rem;
-    }
+     .coffee,.special_drink,.bakery {
+        text-align: center;
+     }
+
+     .coffee_table,.special_drink_table,.bakery_table{
+        margin: auto;
+        width: 90%;
+     }
+
+     .coffee_img,.special_img,.bakery_img {
+        display: none;
+     }
 
    
 }
