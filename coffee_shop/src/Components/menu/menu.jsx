@@ -30,7 +30,7 @@ const menu = () => {
                         <li>Description</li>
                         <li>Price</li>
                     </ul>
-                </div>
+            </div>
                 <div className="tl1">
                     <hr className="line1" />
                 </div>

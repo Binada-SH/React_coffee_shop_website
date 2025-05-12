@@ -775,3 +775,11 @@
         
     }    
 }
+
+@media screen and (max-width: 375px) {
+    .coffee h3 {
+        margin-left: -8rem;
+        display: flex;
+        justify-content: space-around;
+    }
+}
