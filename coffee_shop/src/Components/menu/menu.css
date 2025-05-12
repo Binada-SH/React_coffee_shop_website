@@ -586,7 +586,7 @@
     
     .coffee_img img{
         margin-left: auto;
-        margin-top: 31rem;
+        padding-top: 31rem;
         display: flex;
     }
 
@@ -672,8 +672,12 @@
         width: 85%;
     }
 
-    .special_img {
-        display: none;
+    .special_img img{
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 20rem;
+        display: flex;
+        
     }
 
     
