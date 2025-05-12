@@ -67,3 +67,22 @@
     font-family: 'now';
     font-size: 0.8rem;
 }
+
+@media screen and (min-width: 2560px) {
+    .footer_logo h2 {
+        font-size: 3rem;
+    }
+
+    .footer_slogan p {
+        font-size: 0.7rem;
+    }
+
+    .contact h3 {
+        font-size: 1.2rem;
+    }
+
+    .contact_info li {
+        font-size: 1rem;
+    }
+    
+}
