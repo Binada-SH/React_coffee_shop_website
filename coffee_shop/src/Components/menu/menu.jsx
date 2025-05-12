@@ -77,7 +77,7 @@ const menu = () => {
                 <div className="coffee_img">
                     <img src={Coffee_food} alt="" />
                 </div>
-        </div>
+        
         <div className="special_drink">
             <h3>🧋 Special Drinks</h3>
         </div>
@@ -166,6 +166,7 @@ const menu = () => {
         <div className="bakery_img">
             <img src={Bakery} alt="" />
         </div>
+    </div>
     </div>
   )
 }

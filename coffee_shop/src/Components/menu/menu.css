@@ -451,6 +451,22 @@
     width: 10%;
 }
 
+@media screen and (min-width: 2560px) {
+    .menu_title h2{
+        font-size: 4rem;
+    }
+
+    .menu_para p{
+        font-size: 1.2rem;
+    }
+
+    .menu_list {
+        padding-left: 8rem;
+    }
+
+    .s
+    
+}
 @media screen and (max-width: 414px) {
     .menu_para {
         width: 75%;
