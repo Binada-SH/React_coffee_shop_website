@@ -93,6 +93,29 @@
         font-size: 4rem;
     }
 
+    .about_section {
+        width: 20%;
+    }
+
+    .about_section p {
+        font-size: 1.2rem;
+    }
+
+    .mission_title {
+        font-size: 23px;
+    }
+
+    .mission_des {
+        font-size: 1.2rem;
+    }
+    .value_title {
+        font-size: 23px;
+    }
+
+    .reasons li {
+        font-size: 1.3rem;
+    }
+
     .line {
         width: 8%;
         height: 100px;
@@ -104,6 +127,7 @@
     .about_section {
         width: 75%;
     }
+
 
     .line{
         width: 100px;
