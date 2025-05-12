@@ -38,6 +38,7 @@
 }
 
 .glr_grd {
+    margin: auto;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: 16px;
@@ -53,4 +54,24 @@
 
 .grid_item:hover {
     scale: 1.2rem;
+}
+
+@media screen and (min-width: 2560px) {
+    .gallery_title h2 {
+        font-size: 4rem;
+    }
+
+    .gallery_context p {
+        font-size: 1.2rem;
+    }
+
+    .glr_grd {
+        margin: auto;
+        width: 90%;
+    }
+
+    .glr_grd img{
+        height: 600px;
+    }
+    
 }
