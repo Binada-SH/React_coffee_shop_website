@@ -94,7 +94,7 @@ const menu = () => {
         <div className="sptd1">
             <ul className="sptr1">
                 <li>Brownie Blend</li>
-                <li>Our signature chocolate-infused latte</li>
+                <li> <span className="hideout">Our signature </span>chocolate-infused latte</li>
                 <li>$4.50</li>
             </ul>
         </div>
@@ -102,7 +102,7 @@ const menu = () => {
         <div className="sptd2">
             <ul className="sptr2">
                 <li>Vanilla Cold Brew</li>
-                <li>Sweet, chilled, and energizing</li>
+                <li>Sweet, <span className="hideout">chilled, </span>and energizing</li>
                 <li>$4.25</li>
             </ul>
         </div>
@@ -110,7 +110,7 @@ const menu = () => {
         <div className="sptd3">
             <ul className="sptr3">
                 <li>Cinnamon Chai</li>
-                <li>Warm spices in a creamy base</li>
+                <li>Warm <span className="hideout">spices in a </span>creamy base</li>
                 <li>$4.00</li>
             </ul>
         </div>
