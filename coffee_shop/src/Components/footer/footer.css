@@ -86,3 +86,20 @@
     }
     
 }
+
+@media screen and (max-width: 414px) {
+    .footer_logo {
+        margin: 0;
+        justify-content: space-around;
+    }
+
+    .footer_slogan {
+        display: flex;
+        margin: 0;
+        justify-content: space-around;
+    }
+
+    .contact {
+        padding-top: 10rem;
+    }
+}
