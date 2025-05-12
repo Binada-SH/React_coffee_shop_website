@@ -4,6 +4,8 @@ import Coffee_food from '../../assets/coffee_food.png';
 import Special_food from '../../assets/special_drink.png';
 import Bakery from '../../assets/bakery.png';
 
+const coffeeMenu = []
+
 const menu = () => {
   return (
     <div className='menu'>
