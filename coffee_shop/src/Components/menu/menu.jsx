@@ -4,7 +4,67 @@ import Coffee_food from '../../assets/coffee_food.png';
 import Special_food from '../../assets/special_drink.png';
 import Bakery from '../../assets/bakery.png';
 
-const coffeeMenu = []
+const coffeeMenu = [
+    {drink:'Espresso Shot', 
+    description:'Pure, bold, and energizing', 
+    price:'$2.50'},
+
+    {drink:'Americano', 
+    description:'Espresso with hot water', 
+    price:'$3.00'},
+
+    {drink:'Latte', 
+    description:'Smooth milk with a shot of espresso', 
+    price:'$3.50'},
+
+    {drink:'Cappuccino',
+    description:'Frothy and balanced', 
+    price:'$3.75'},
+
+    {drink:'Mocha', 
+    description:'Chocolate meets coffee', 
+    price:'$4.00'},
+];
+
+const specialDrinkMenu = [
+    {drink:'Brownie Blend', 
+    description:'Our signature-infused latte', 
+    price:'$2.50'},
+
+    {drink:'Vanilla Cold Brew', 
+    description:'Sweet,chilled, and energizing', 
+    price:'$3.00'},
+
+    {drink:'Cinnamon Chai', 
+    description:'Warm Spices in a creamy base', 
+    price:'$3.50'},
+
+    {drink:'Cappuccino',
+    description:'Frothy and balanced', 
+    price:'$3.75'},
+
+    {drink:'Mocha', 
+    description:'Chocolate meets coffee', 
+    price:'$4.00'},
+];
+
+const bakeryMenu = [
+    {drink:'Classic Brownie', 
+    description:'Fudggy, rich, and house-made', 
+    price:'$2.50'},
+
+    {drink:'Cheesecake Slice', 
+    description:'Creamy with a crunchy base', 
+    price:'$3.00'},
+
+    {drink:'Croissant', 
+    description:'Buttery and flaky', 
+    price:'$3.50'},
+
+    {drink:'Banana Bread',
+    description:'Fresh, and moist, made daily', 
+    price:'$3.75'},
+];
 
 const menu = () => {
   return (
@@ -26,146 +86,79 @@ const menu = () => {
                     ☕ Coffee
                 </h3>
             </div>
-            <div className="coffee_tbl">
-                    <ul className='th'>
-                        <li>Drink</li>
-                        <li>Description</li>
-                        <li>Price</li>
-                    </ul>
+            <div className="coffee_menu">
+                <table className="coffee_table">
+                    <thead>
+                        <tr>
+                            <th>Drink</th>
+                            <th>Description</th>
+                            <th>Price</th>
+                        </tr>   
+                    </thead>
+                    <tbody>
+                        {coffeeMenu.map((item,index) => (
+                            <tr key={index}>
+                                <td>{item.drink}</td>
+                                <td>{item.description}</td>
+                                <td>{item.price}</td>
+                            </tr>
+                        ))}
+                    </tbody>
+                </table>
             </div>
-                <div className="tl1">
-                    <hr className="line1" />
-                </div>
-                <div className="td1">
-                    <ul className="tr1">
-                        <li>Espresso Shot</li>
-                        <li>Pure, bold, and energizing</li>
-                        <li>$2.50</li>
-                    </ul>
-                </div>
-                <hr className="ml1" />
-                <div className="td2">
-                    <ul className="tr2">
-                        <li>Americano</li>
-                        <li>Espresso with hot water</li>
-                        <li>$3.00</li>
-                    </ul>
-                </div>
-                <hr className="ml2" />
-                <div className="td3">
-                    <ul className="tr3">
-                        <li>Latte</li>
-                        <li>Smooth milk with a shot of espresso</li>
-                        <li>$3.50</li>
-                    </ul>
-                </div>
-                <hr className="ml3" />               
-                <div className="td4">
-                    <ul className="tr4">
-                        <li>Cappuccino</li>
-                        <li>Frothy and balanced</li>
-                        <li>$3.75</li>
-                    </ul>
-                </div>
-                <hr className="ml4" />
-                <div className="td5">
-                    <ul className="tr5">
-                        <li>Mocha</li>
-                        <li>Chocolate meets coffee</li>
-                        <li>$4.00</li>
-                    </ul>
-                </div>
-                <hr className="ml5" />
                 <div className="coffee_img">
                     <img src={Coffee_food} alt="" />
                 </div>
-        
-        <div className="special_drink">
-            <h3>🧋 Special Drinks</h3>
-        </div>
-        <div className="sptbl">
-            <ul className="spth">
-                <li>Drink</li>
-                <li>Description</li>
-                <li>Price</li>
-            </ul>
-        </div>
-        <div className="sptl1">
-            <hr className="spline1" />
-        </div>
-        <div className="sptd1">
-            <ul className="sptr1">
-                <li>Brownie Blend</li>
-                <li> <span className="hideout">Our signature </span>chocolate-infused latte</li>
-                <li>$4.50</li>
-            </ul>
-        </div>
-            <hr className="spml1" />
-        <div className="sptd2">
-            <ul className="sptr2">
-                <li>Vanilla Cold Brew</li>
-                <li>Sweet, <span className="hideout">chilled, </span>and energizing</li>
-                <li>$4.25</li>
-            </ul>
-        </div>
-            <hr className="spml2" />
-        <div className="sptd3">
-            <ul className="sptr3">
-                <li>Cinnamon Chai</li>
-                <li>Warm <span className="hideout">spices in a </span>creamy base</li>
-                <li>$4.00</li>
-            </ul>
-        </div>
-            <hr className="spml3" />               
-        <div className="special_img">
+            <div className="special_drink">
+                <h3>🧋 Special Drinks</h3>
+            </div>
+            <div className="special_drinks_menu">
+                <table className="special_drink_table">
+                    <thead>
+                        <tr>
+                            <th>Drink</th>
+                            <th>Description</th>
+                            <th>Price</th>
+                        </tr>   
+                    </thead>
+                    <tbody>
+                        {specialDrinkMenu.map((item,index) => (
+                            <tr key={index}>
+                                <td>{item.drink}</td>
+                                <td>{item.description}</td>
+                                <td>{item.price}</td>
+                            </tr>
+                        ))}
+                    </tbody>
+                </table>
+            </div>
+            <div className="special_img">
             <img src={Special_food} alt="" />
         </div>
         <div className="bakery">
             <h3>🍰 Bakery</h3>
         </div>
-        <div className="btbl">
-            <ul className="bth">
-                <li>Drink</li>
-                <li>Description</li>
-                <li>Price</li>
-            </ul>
-        </div>
-        <div className="btl1">
-            <hr className="bline1" />
-        </div>
-        <div className="btd1">
-            <ul className="btr1">
-                <li>Classic Brownie</li>
-                <li>Fudgy, rich, and house-made</li>
-                <li>$2.50</li>
-            </ul>
-        </div>
-            <hr className="bml1" />
-        <div className="btd2">
-            <ul className="btr2">
-                <li>Cheesecake Slice</li>
-                <li>Creamy with a crunchy base</li>
-                <li>$4.25</li>
-            </ul>
-        </div>
-            <hr className="bml2" />
-        <div className="btd3">
-            <ul className="btr3">
-                <li>Croissant</li>
-                <li>Buttery and flaky</li>
-                <li>$2.25</li>
-            </ul>
-        </div>
-            <hr className="bml4" />
-            <div className="btd4">
-            <ul className="btr4">
-                <li>Banana Bread</li>
-                <li>Fresh and moist, made daily</li>
-                <li>$3.00</li>
-            </ul>
-        </div>
-            <hr className="bml4" />               
-        <div className="bakery_img">
+        <div className="bakery_menu">
+                <table className="bakery_table">
+                    <thead>
+                        <tr>
+                            <th>Drink</th>
+                            <th>Description</th>
+                            <th>Price</th>
+                        </tr>   
+                    </thead>
+                    <tbody>
+                        {specialDrinkMenu.map((item,index) => (
+                            <tr key={index}>
+                                <td>{item.drink}</td>
+                                <td>{item.description}</td>
+                                <td>{item.price}</td>
+                            </tr>
+                        ))}
+                    </tbody>
+                </table>
+            </div>
+            <div className="bakery_img">
             <img src={Bakery} alt="" />
         </div>
     </div>
