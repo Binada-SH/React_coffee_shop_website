@@ -75,3 +75,14 @@
     }
     
 }
+
+@media screen and (max-width: 414px) {
+    .gallery_context {
+        width: 65%;
+    }
+
+    .glr_grd {
+        display: block;
+    }
+    
+}
