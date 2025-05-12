@@ -461,11 +461,21 @@
     }
 
     .menu_list {
-        padding-left: 8rem;
+        padding-left: 16rem;
     }
 
-    .s
-    
+    .line1 {
+        width: 580px;
+    }
+
+    .ml1,.ml2,.ml3,.ml4,.ml5,.spline1,.spml1,
+    .spml2,.spml3,.bline1,.bml1,.bml2,.bml3,.bml4 {
+        width: 580px;
+    }
+
+    .coffee_img,.special_img,.bakery_img{
+        padding-right: 16rem;
+    }  
 }
 @media screen and (max-width: 414px) {
     .menu_para {
