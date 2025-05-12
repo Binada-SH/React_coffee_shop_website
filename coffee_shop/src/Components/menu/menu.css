@@ -680,5 +680,97 @@
         
     }
 
-    
+    .bakery h3{
+        display: flex;
+        margin-left: -1.5rem;
+        margin-top: 25rem;
+    }
+
+    .bth {
+        margin-left: auto;
+    }
+
+    .bth li {
+        padding: 2.4rem;
+    }
+
+    .bline1 {
+        margin-left: 2.4rem;
+        width: 84%;
+    }
+
+    .btd1 {
+        width: 100%;
+        margin-left: 1.6rem;
+        margin-top: 1.5rem;
+    }
+
+    .btr1 li {
+        font-size: 0.9rem;
+        display: inline;
+        padding: 0.3rem;
+    }
+
+    .bml1 {
+        margin-left: 2.4rem;
+        width: 85%;
+    }
+
+     .btd2 {
+        width: 100%;
+        margin-left: 1.3rem;
+        margin-top: 1.5rem;
+    }
+
+    .btr2 li {
+        font-size: 0.9rem;
+        display: inline;
+        padding: 0.3rem;
+    }
+
+    .bml2 {
+        margin-left: 2.4rem;
+        width: 85%;
+    }
+
+     .btd3 {
+        width: 100%;
+        margin-left: 0rem;
+        margin-top: 1.5rem;
+    }
+
+    .btr3 li {
+        font-size: 0.9rem;
+        display: inline;
+        padding: 2.03rem;
+    }
+
+    .bml3 {
+        margin-left: 2.4rem;
+        width: 85%;
+    }
+
+     .btd4 {
+        width: 100%;
+        margin-left: 1.6rem;
+        margin-top: 1.5rem;
+    }
+
+    .btr4 li {
+        font-size: 0.9rem;
+        display: inline;
+        padding: 0.6rem;
+    }
+
+    .bml4 {
+        margin-left: 2.4rem;
+        width: 85%;
+    }
+
+    .bakery_img img{
+        padding-left: 5.5rem;
+        padding-top: 20rem;
+        display: flex;
+        
+    }    
 }
