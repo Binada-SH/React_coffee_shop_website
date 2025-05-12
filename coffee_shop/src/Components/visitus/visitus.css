@@ -74,3 +74,18 @@
     font-family: 'jura';
     color: #000000;
 }
+
+@media screen and (min-width: 2560px) {
+    .visit_title h2 {
+        font-size: 4rem;
+    }
+
+    .visit_des p,.address_info p,.hours_info p {
+        font-size: 1.2rem;
+    }
+
+    .address_title h3,.hours_title h3 {
+        font-size: 23px;
+    }
+    
+}
