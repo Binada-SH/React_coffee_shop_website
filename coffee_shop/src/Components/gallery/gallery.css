@@ -73,7 +73,21 @@
     .glr_grd img{
         height: 600px;
     }
-    
+}
+
+@media screen and (max-width: 820px) {
+    .gallery_context {
+        width: 65%;
+    }
+
+    .glr_grd {
+        display: grid;
+    }
+
+    .grid_item {
+        height: 250px;
+    }
+   
 }
 
 @media screen and (max-width: 430px) {
@@ -95,5 +109,4 @@
     .glr_grd {
         display: block;
     }
-    
 }

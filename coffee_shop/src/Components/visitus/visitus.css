@@ -89,6 +89,20 @@
     }
 }
 
+@media screen and (max-width: 820px) {
+    .visit_des {
+        width: 60%;
+    }
+
+    .address_info p {
+        width: 60%;
+    }
+
+    .hours_info p {
+        width: 60%;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .visit_des {
         width: 60%;

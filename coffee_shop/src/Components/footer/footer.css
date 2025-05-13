@@ -87,6 +87,25 @@
     
 }
 
+@media screen and (max-width: 820px) {
+    .footer_logo h2 {
+        font-size: 2rem;
+    }
+
+    .footer_slogan p {
+        font-size: 0.7rem;
+    }
+
+    .contact h3 {
+        font-size: 1.2rem;
+    }
+
+    .contact_info li {
+        font-size: 1rem;
+    }
+    
+}
+
 @media screen and (max-width: 768px) {
     .footer_logo {
         margin: 0;
