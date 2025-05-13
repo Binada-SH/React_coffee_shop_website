@@ -16,8 +16,6 @@
 }
 
 .hero_title {
-    padding-left: 16rem;
-    padding-top: 19rem;
     align-items: center;
     justify-content: center;  
 }
@@ -36,9 +34,32 @@
 
     .hero_title h1 {
         font-size: 6rem;
+    }   
+}
+
+@media screen and (min-width: 1280px) {
+     .hero_title {
+        display: flex;
+        margin-top: 7rem;
+        padding-left: 5.5rem;
+        align-items: center;
+        justify-content: space-between;
     }
 
-    
+    .hero_title {
+    padding-left: 16rem;
+    padding-top: 13rem;
+    }  
+}
+
+@media screen and (max-width: 768px) {
+     .hero_title {
+        display: flex;
+        margin-top: 27rem;
+        padding-left: 5.5rem;
+        align-items: center;
+        justify-content: space-between;
+    }
 }
 
 @media screen and (max-width: 430px) {
