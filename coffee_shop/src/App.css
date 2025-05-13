@@ -28,8 +28,8 @@
 
 @media screen and (min-width: 2560px) {
     .hero_title {
-        padding-left: 40rem;
-        padding-top: 27rem;
+        padding-left: 26rem;
+        padding-top: 28rem;
     }
 
     .hero_title h1 {
@@ -37,7 +37,7 @@
     }   
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (max-width: 1280px) {
      .hero_title {
         display: flex;
         margin-top: 7rem;
