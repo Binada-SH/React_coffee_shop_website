@@ -189,6 +189,22 @@
     }
 }
 
+@media screen and (min-width: 768px) {
+    .coffee,.special_drink,.bakery {
+        text-align: center;
+    }   
+    .coffee_menu,.special_drinks_menu,.bakery_menu {
+        width: 200%;
+        padding-left: 1rem;
+        align-items: center;
+
+    }
+
+    .coffee_img,.special_img,.bakery_img {
+        display: none;
+     }
+}
+
 @media screen and (max-width: 430px) {
     .menu_para {
         width: 75%;
