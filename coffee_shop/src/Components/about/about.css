@@ -123,6 +123,32 @@
     
 }
 
+@media screen and (max-width: 768px) {
+    .about_section {
+        width: 75%;
+    }
+
+
+    .line{
+        width: 100px;
+    }
+
+    .mission_des {
+        width: 75%;
+    }
+    
+    .reasons li {
+        text-align: center;
+        align-items: center;
+        margin: 1.5rem auto;
+        width: auto;
+    }
+
+    .about_img img{
+        margin-top: auto;
+    }
+}
+
 @media screen and (max-width: 430px) {
     .about_section {
         width: 75%;
