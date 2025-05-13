@@ -188,6 +188,26 @@
         padding-left: 9rem;
     }
 }
+
+@media screen and (max-width: 430px) {
+    .menu_para {
+        width: 75%;
+    }
+
+     .coffee,.special_drink,.bakery {
+        text-align: center;
+     }
+
+     .coffee_table,.special_drink_table,.bakery_table{
+        margin: auto;
+        width: 90%;
+     }
+
+     .coffee_img,.special_img,.bakery_img {
+        display: none;
+     }
+}
+
 @media screen and (max-width: 414px) {
     .menu_para {
         width: 75%;
@@ -205,8 +225,6 @@
      .coffee_img,.special_img,.bakery_img {
         display: none;
      }
-
-   
 }
 
 @media screen and (max-width: 375px) {
