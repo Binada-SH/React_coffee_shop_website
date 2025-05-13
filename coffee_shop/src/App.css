@@ -41,6 +41,15 @@
     
 }
 
+@media screen and (max-width: 430px) {
+     .hero_title {
+        display: flex;
+        padding-left: 2.5rem;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+}
 @media screen and (max-width: 414px) {
     .hero_title {
         display: flex;
