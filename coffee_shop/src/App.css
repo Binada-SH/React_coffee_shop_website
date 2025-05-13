@@ -103,5 +103,13 @@
     .hero_title h1{
         font-size: 2.3rem;
     }
+
+     .hero_title {
+        display: flex;
+        margin-top: 16rem;
+        padding-left: 2.5rem;
+        align-items: center;
+        justify-content: space-between;
+    }
     
 }
