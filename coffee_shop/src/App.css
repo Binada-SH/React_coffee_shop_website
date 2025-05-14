@@ -37,7 +37,7 @@
     }   
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (min-width: 1280px) {
      .hero_title {
         display: flex;
         margin-top: 7rem;
