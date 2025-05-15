@@ -25,6 +25,6 @@ This project is a website for a coffee shop, designed and implemented using Reac
 * Styled Components
 * React Icons
 
-<h6> This is a sample project and, This application is available @ <a href src='https://binada-sh.github.io/React_coffee_shop_website/' target=_blank> this link </a></h6>
+<h6> This is a sample project and, This application is available @ <a href src='https://binada-sh.github.io/React_coffee_shop_website/' target='_blank'> this link </a></h6>
 
 ###### © 2025 - Binada Hettiarachchi. All Rights Reserved. ######
